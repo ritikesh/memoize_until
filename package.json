@@ -2,7 +2,7 @@
   "name": "memoize_until",
   "version": "1.0.0",
   "description": "A unique Memoization Pattern which memoizes until the next time metric - could be until the next minute, hour, day, week.",
-  "main": "memoize_until.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "tsc lib/index.ts"
   },
