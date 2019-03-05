@@ -4,7 +4,7 @@
   "description": "A unique Memoization Pattern which memoizes until the next time metric - could be until the next minute, hour, day, week.",
   "main": "memoize_until.js",
   "scripts": {
-    "pre-commit": "tsc lib/index.ts && git add lib/index.js"
+    "build": "tsc lib/index.ts"
   },
   "keywords": [
     "memoization",
@@ -23,12 +23,7 @@
   },
   "homepage": "https://github.com/ritikesh/memoize_until#readme",
   "devDependencies": {
-    "typescript": "3.3.3333",
-    "ghooks": "2.0.4"
+    "typescript": "3.3.3333"
   },
-  "config": {
-    "ghooks": {
-      "pre-commit": "pre-commit"
-    }
-  }
+  "dependencies": {}
 }
