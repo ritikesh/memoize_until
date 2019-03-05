@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "A unique Memoization Pattern which memoizes until the next time metric - could be until the next minute, hour, day, week.",
   "main": "memoize_until.js",
-  "scripts": {},
+  "scripts": {
+    "pre-commit": "tsc lib/index.ts && git add lib/index.js"
+  },
   "keywords": [
     "memoization",
     "typescript",
@@ -19,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/ritikesh/memoize_until/issues"
   },
-  "homepage": "https://github.com/ritikesh/memoize_until#readme"
+  "homepage": "https://github.com/ritikesh/memoize_until#readme",
+  "devDependencies": {
+    "typescript": "3.3.3333",
+    "ghooks": "2.0.4"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "pre-commit"
+    }
+  }
 }

@@ -9,7 +9,7 @@ Install this grunt plugin next to your project's grunt.js gruntfile with: `npm i
 ## Usage
 
 ```javascript
-const MemoizeUntil = require('./memoize_until.js').MemoizeUntil
+const MemoizeUntil = require('memoize_until.js').MemoizeUntil
 
 MemoizeUntil.fetch('min', 'default', () => { 
     return 'SomeComplexOperation'; 
