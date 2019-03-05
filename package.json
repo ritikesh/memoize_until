@@ -11,5 +11,13 @@
     "javascript"
   ],
   "author": "Ritikesh G <ritikeshsisodiya@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritikesh/memoize_until.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ritikesh/memoize_until/issues"
+  },
+  "homepage": "https://github.com/ritikesh/memoize_until#readme"
 }
