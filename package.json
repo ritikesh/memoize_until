@@ -1,0 +1,15 @@
+{
+  "name": "memoize_until",
+  "version": "1.0.0",
+  "description": "A unique Memoization Pattern which memoizes until the next time metric - could be until the next minute, hour, day, week.",
+  "main": "memoize_until.js",
+  "scripts": {},
+  "keywords": [
+    "memoization",
+    "typescript",
+    "caching",
+    "javascript"
+  ],
+  "author": "Ritikesh G <ritikeshsisodiya@gmail.com>",
+  "license": "MIT"
+}
