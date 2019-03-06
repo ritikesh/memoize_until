@@ -2,9 +2,14 @@
   "name": "memoize_until",
   "version": "1.0.0",
   "description": "A unique Memoization Pattern which memoizes until the next time metric - could be until the next minute, hour, day, week.",
+  "author": "Ritikesh G <ritikeshsisodiya@gmail.com>",
+  "license": "MIT",
   "main": "lib/index.js",
+  "files": ["lib/**/*"],
   "scripts": {
-    "build": "tsc lib/index.ts"
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
   },
   "keywords": [
     "memoization",
@@ -12,8 +17,6 @@
     "caching",
     "javascript"
   ],
-  "author": "Ritikesh G <ritikeshsisodiya@gmail.com>",
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ritikesh/memoize_until.git"
@@ -23,6 +26,9 @@
   },
   "homepage": "https://github.com/ritikesh/memoize_until#readme",
   "devDependencies": {
+    "prettier": "1.16.4",
+    "tslint": "5.13.1",
+    "tslint-config-prettier": "1.18.0",
     "typescript": "3.3.3333"
   },
   "dependencies": {}
