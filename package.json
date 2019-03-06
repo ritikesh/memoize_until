@@ -5,11 +5,14 @@
   "author": "Ritikesh G <ritikeshsisodiya@gmail.com>",
   "license": "MIT",
   "main": "lib/index.js",
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "lint": "tslint -p tsconfig.json"
+    "lint": "tslint -p tsconfig.json",
+    "test": "jest --config jestconfig.json"
   },
   "keywords": [
     "memoization",
@@ -26,7 +29,10 @@
   },
   "homepage": "https://github.com/ritikesh/memoize_until#readme",
   "devDependencies": {
+    "@types/jest": "24.0.9",
+    "jest": "24.1.0",
     "prettier": "1.16.4",
+    "ts-jest": "24.0.0",
     "tslint": "5.13.1",
     "tslint-config-prettier": "1.18.0",
     "typescript": "3.3.3333"
