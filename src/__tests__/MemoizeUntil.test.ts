@@ -8,7 +8,7 @@ test('Basic Functionality', () => {
 
 test('Expiry test', () => {
   const val = MemoizeUntil.fetch('min', 'default', () => 'ComplexOperation');
- 
+
   setTimeout(() => {
     const memoized = MemoizeUntil.fetch('min', 'default', () => 'NewComplexOperation');
     expect(memoized).toBe('NewComplexOperation');
