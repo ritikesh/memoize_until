@@ -4,7 +4,11 @@ A unique Memoization Pattern which memoizes until the next time metric - could b
 
 ## Get Started
 
-Install this grunt plugin next to your project's grunt.js gruntfile with: `npm install memoize_until --save-dev`
+Install `memoize_until` with: 
+
+```bash
+npm install memoize_until --save-dev
+```
 
 ## Usage
 
