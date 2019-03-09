@@ -1,13 +1,13 @@
 class NullObject {}
 
+const nullInstance = new NullObject();
+
 // tslint:disable-next-line:max-classes-per-file
 class Store {
   private store: object;
-  private null: NullObject;
 
   constructor(private moment: () => number) {
     this.store = {};
-    this.null = new NullObject();
     this.extend('default');
   }
 
@@ -42,7 +42,7 @@ class Store {
 
   private setNull(value: any): any {
     if (value === undefined || value === null) {
-      return this.null;
+      return nullInstance;
     }
     return value;
   }

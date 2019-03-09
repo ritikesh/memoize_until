@@ -50,6 +50,9 @@ MemoizeUntil.fetch('min', runtime_key, () => {
 })
 ```
 
+## Nulls
+if the value to be memoized is `undefined` or `null`, `MemoizeUntil` wraps it underneath a pseudo null-like object called `NullObject` and always returns `undefined`. This ensures that even nulls are memoized.
+
 ## License
 [Ritikesh](https://ritikesh.github.io)  
 Licensed under the MIT license.

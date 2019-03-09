@@ -14,3 +14,9 @@ test('Expiry test', () => {
     expect(memoized).toBe('NewComplexOperation');
   }, 1000);
 });
+
+test('Test null', () => {
+  MemoizeUntil.fetch('day', 'default', () => null);
+  const val = MemoizeUntil.fetch('day', 'default', () => 'NewComplexOperation');
+  expect(val).toBe(undefined);
+});
