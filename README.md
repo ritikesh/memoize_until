@@ -1,6 +1,5 @@
 # MemoizeUntil
-
-![CircleCI](https://circleci.com/gh/ritikesh/memoize_until)
+[![CircleCI](https://circleci.com/gh/ritikesh/memoize_until.svg?style=svg)](https://circleci.com/gh/ritikesh/memoize_until)
 ![Version](https://img.shields.io/npm/v/memoize_until.svg)
 ![Downlaods](https://img.shields.io/npm/dt/memoize_until.svg)
 
